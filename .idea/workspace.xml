@@ -1,0 +1,1173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9bc8af32-0f51-4788-8b1f-3e1441410e19" name="Default" comment="" />
+    <ignored path="LegionPE_Iota.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="LegionPE_Iota" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="BaseSession.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/BaseSession.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="661">
+              <caret line="1154" column="57" lean-forward="false" selection-start-line="1154" selection-start-column="57" selection-end-line="1154" selection-end-column="57" />
+              <folding>
+                <element signature="e#38#93#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeamPlayer.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/team/TeamPlayer.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="590">
+              <caret line="141" column="36" lean-forward="false" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TCPNetworkSyncThread.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/util/TCPNetworkSyncThread.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="705">
+              <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NetworkSyncTask.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/task/NetworkSyncTask.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-51">
+              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FriendRelationship.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/FriendRelationship.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-809">
+              <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CreateUserQuery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/CreateUserQuery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+              <folding>
+                <marker date="1514062828429" expanded="true" signature="412:431" ph="INSERT INTO users... " />
+                <marker date="1514062828429" expanded="true" signature="900:939" ph="INSERT INTO users_stats... " />
+                <marker date="1514062828429" expanded="true" signature="900:946" ph="INSERT INTO users_stats... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Query.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/Query.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="716">
+              <caret line="110" column="9" lean-forward="false" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Constants.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/Constants.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="479">
+              <caret line="158" column="36" lean-forward="false" selection-start-line="158" selection-start-column="36" selection-end-line="158" selection-end-column="36" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GetUserDataQuery.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/GetUserDataQuery.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="101">
+              <caret line="49" column="94" lean-forward="false" selection-start-line="49" selection-start-column="94" selection-end-line="49" selection-end-column="94" />
+              <folding>
+                <marker date="1514060778715" expanded="true" signature="2671:3129" ph="SELECT *, IN... users" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mysql table creations" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/mysql table creations">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="675">
+              <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Mac</find>
+      <find>target</find>
+      <find>getNextReceivedMessage</find>
+      <find>partyinvites</find>
+      <find>sendLogin</find>
+      <find>sendPresetMessageIfLoggedIn</find>
+      <find>getSession</find>
+      <find>initD</find>
+      <find>setRegister</find>
+      <find>saveSession</find>
+      <find>saveSessionData</find>
+      <find>addSes</find>
+      <find>initLog</find>
+      <find>loggedInTime</find>
+      <find>lastOn</find>
+      <find>setAuthen</find>
+      <find>authenticated</find>
+      <find>Authenticated</find>
+      <find>setAuthenticated</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>Online</replace>
+      <replace>setOnline</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base</dir>
+    </dirStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/team/SaveTeamPlayersQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/AcceptNickNameQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/CreateFriendRequestQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/GetUserAdminLogsQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/GetUserFriendsQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/GetUserIgnoredQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/GetUserPartyInvitesQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/GetUserTeamInvitesQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/NameToUidQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/RemoveFriendQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/RemoveIgnoreUserQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/UpdateFriendStatusQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/party/CreatePartyPlayerQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/party/DeletePartyPlayerQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/party/DeletePartyPlayersQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/party/GetPartyPlayersByLeaderUidQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/party/UpdatePartyPlayerStatusQuery.php" />
+        <option value="$PROJECT_DIR$/PocketMine/timings/timings.txt" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/plugin.yml" />
+        <option value="$PROJECT_DIR$/PocketMine/plugins/PocketMine-DevTools/src/DevTools/DevTools.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/task/CallbackAsyncTask.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/command/BaseCommand.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/KitPvP/src/LegionPE/Iota/KitPvP/KitPvPPlugin.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/chatroom/CreateChatRoomQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/server/CreateServerQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/task/NetworkSyncTask.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/server/UpdateServerStatusQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/KitPvP/src/LegionPE/Iota/KitPvP/KitPvPSession.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/EventListener.php" />
+        <option value="$PROJECT_DIR$/Router/testclient.js" />
+        <option value="$PROJECT_DIR$/Website/html/scripts/utils.js" />
+        <option value="$PROJECT_DIR$/Website/html/manifest.json" />
+        <option value="$PROJECT_DIR$/Website/html/css/main.css" />
+        <option value="$PROJECT_DIR$/Website/html/index.html" />
+        <option value="$PROJECT_DIR$/Website/html/scripts/main.js" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/party/Party.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/task/GenerateHashTask.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/ResourceManager.php" />
+        <option value="$PROJECT_DIR$/PocketMine/pocketmine-mp/src/pocketmine/PocketMine.php" />
+        <option value="$PROJECT_DIR$/Router/router.js" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/resources/messages.json" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/FriendRelationship.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/BasePlugin.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/util/TCPNetworkSyncThread.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/GetUserDataQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/Constants.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/mysql table creations" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/Query.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/CreateUserQuery.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/team/TeamPlayer.php" />
+        <option value="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/BaseSession.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <annotation-enable>false</annotation-enable>
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpServers">
+    <servers />
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+    <include_path>
+      <path value="$PROJECT_DIR$/PocketMine/src" />
+    </include_path>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="y" value="23" />
+    <option name="width" value="2560" />
+    <option name="height" value="1413" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>PHP</id>
+          </State>
+          <State>
+            <id>PHPDocPHP</id>
+          </State>
+          <State>
+            <id>SQL</id>
+          </State>
+          <State>
+            <id>UndefinedPHP</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>PhpUndefinedClassInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="LegionPE_Iota" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LegionPE_Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LegionPE_Iota" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LegionPE_Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LegionPE_Iota" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LegionPE_Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Games" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LegionPE_Iota" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LegionPE_Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Games" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LegionPE_Iota" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LegionPE_Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Games" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="resources" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LegionPE_Iota" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LegionPE_Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Games" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LegionPE_Iota" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LegionPE_Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Games" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LegionPE" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LegionPE_Iota" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LegionPE_Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Games" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LegionPE" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LegionPE_Iota" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LegionPE_Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Games" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LegionPE" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LegionPE_Iota" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LegionPE_Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Games" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LegionPE" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="task" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LegionPE_Iota" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LegionPE_Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Games" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LegionPE" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="team" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="LegionPE_Iota" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LegionPE_Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Plugin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Games" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="src" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="LegionPE" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Iota" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="base" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="util" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/PocketMine/src" />
+    <property name="settings.editor.selected.configurable" value="reference.webide.settings.project.settings.php" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
+    <property name="js-jscs-nodeInterpreter" value="/usr/local/bin/node" />
+    <property name="nodejs_interpreter_path" value="/usr/local/bin/node" />
+    <property name="JavaScriptPreferStrict" value="true" />
+    <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/event/session" />
+      <recent name="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/error" />
+      <recent name="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/command/session" />
+      <recent name="$PROJECT_DIR$/Base/src/LegionPE/Iota/base/team" />
+      <recent name="$PROJECT_DIR$/KitPvP/src/LegionPE/Iota/KitPvP" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/event/party" />
+      <recent name="$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/event/team" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpUnitRemoteRunConfigurationType" factoryName="PHPUnit on Server">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9bc8af32-0f51-4788-8b1f-3e1441410e19" name="Default" comment="" />
+      <created>1469200478275</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1469200478275</updated>
+      <workItem from="1469402197166" duration="934000" />
+      <workItem from="1469403626778" duration="264000" />
+      <workItem from="1469404001998" duration="260000" />
+      <workItem from="1469404377443" duration="1535000" />
+      <workItem from="1469452027761" duration="811000" />
+      <workItem from="1469463636512" duration="1378000" />
+      <workItem from="1469488551444" duration="4802000" />
+      <workItem from="1469535615734" duration="3093000" />
+      <workItem from="1469560896131" duration="6022000" />
+      <workItem from="1469616511320" duration="5572000" />
+      <workItem from="1469658172244" duration="3262000" />
+      <workItem from="1469716231214" duration="13540000" />
+      <workItem from="1469790538042" duration="595000" />
+      <workItem from="1469799314133" duration="6207000" />
+      <workItem from="1469831700821" duration="4541000" />
+      <workItem from="1469836778993" duration="126000" />
+      <workItem from="1469908114428" duration="5548000" />
+      <workItem from="1469993424819" duration="2178000" />
+      <workItem from="1470090475274" duration="7554000" />
+      <workItem from="1470151039241" duration="1281000" />
+      <workItem from="1470152339656" duration="6336000" />
+      <workItem from="1470262758158" duration="4496000" />
+      <workItem from="1470308925903" duration="4358000" />
+      <workItem from="1470344657934" duration="5535000" />
+      <workItem from="1470401128145" duration="4030000" />
+      <workItem from="1470435395142" duration="4800000" />
+      <workItem from="1470493120920" duration="7759000" />
+      <workItem from="1470511956281" duration="3422000" />
+      <workItem from="1470563924604" duration="6583000" />
+      <workItem from="1470654451921" duration="2465000" />
+      <workItem from="1470920512358" duration="6753000" />
+      <workItem from="1471039963192" duration="738000" />
+      <workItem from="1471073226483" duration="1874000" />
+      <workItem from="1471292867723" duration="196000" />
+      <workItem from="1471350583075" duration="806000" />
+      <workItem from="1471476418687" duration="27000" />
+      <workItem from="1471602616286" duration="5003000" />
+      <workItem from="1471612215806" duration="2521000" />
+      <workItem from="1471698285025" duration="288000" />
+      <workItem from="1471718423953" duration="338000" />
+      <workItem from="1471736483064" duration="96000" />
+      <workItem from="1471806140815" duration="220000" />
+      <workItem from="1471828489437" duration="48000" />
+      <workItem from="1471963272291" duration="115000" />
+      <workItem from="1472077394956" duration="1529000" />
+      <workItem from="1472081941612" duration="25000" />
+      <workItem from="1472252502321" duration="953000" />
+      <workItem from="1472403956994" duration="1343000" />
+      <workItem from="1472428850098" duration="3748000" />
+      <workItem from="1472498027430" duration="111000" />
+      <workItem from="1472498201724" duration="1889000" />
+      <workItem from="1472512299771" duration="3339000" />
+      <workItem from="1472595138901" duration="961000" />
+      <workItem from="1472650197545" duration="695000" />
+      <workItem from="1472651832063" duration="10272000" />
+      <workItem from="1472665554615" duration="3560000" />
+      <workItem from="1472679357250" duration="4358000" />
+      <workItem from="1472684279852" duration="712000" />
+      <workItem from="1472738573861" duration="12317000" />
+      <workItem from="1472767542188" duration="5407000" />
+      <workItem from="1472774146729" duration="410000" />
+      <workItem from="1472856225004" duration="1045000" />
+      <workItem from="1472920819419" duration="15516000" />
+      <workItem from="1473089138139" duration="137000" />
+      <workItem from="1473097860601" duration="5172000" />
+      <workItem from="1473180273788" duration="3563000" />
+      <workItem from="1473196506559" duration="2545000" />
+      <workItem from="1473264477377" duration="4048000" />
+      <workItem from="1473278847338" duration="1855000" />
+      <workItem from="1473350197309" duration="513000" />
+      <workItem from="1473430531703" duration="11179000" />
+      <workItem from="1473505886484" duration="3653000" />
+      <workItem from="1473530095186" duration="6352000" />
+      <workItem from="1473607979332" duration="7832000" />
+      <workItem from="1473954227106" duration="508000" />
+      <workItem from="1474304810916" duration="1180000" />
+      <workItem from="1474405320580" duration="3229000" />
+      <workItem from="1474456863238" duration="4952000" />
+      <workItem from="1474646585923" duration="306000" />
+      <workItem from="1474650796133" duration="4874000" />
+      <workItem from="1474735859187" duration="239000" />
+      <workItem from="1474906481697" duration="2376000" />
+      <workItem from="1474995377827" duration="235000" />
+      <workItem from="1475009588131" duration="2961000" />
+      <workItem from="1475249244889" duration="4563000" />
+      <workItem from="1475273917682" duration="1929000" />
+      <workItem from="1475366189889" duration="1046000" />
+      <workItem from="1475414739523" duration="1012000" />
+      <workItem from="1475509721630" duration="2143000" />
+      <workItem from="1475684717295" duration="3063000" />
+      <workItem from="1475771334665" duration="1690000" />
+      <workItem from="1475869307931" duration="45000" />
+      <workItem from="1476026559756" duration="1662000" />
+      <workItem from="1476047095547" duration="1982000" />
+      <workItem from="1476112835750" duration="187000" />
+      <workItem from="1476285770045" duration="653000" />
+      <workItem from="1476378256361" duration="3847000" />
+      <workItem from="1476458134700" duration="9104000" />
+      <workItem from="1476471316636" duration="349000" />
+      <workItem from="1476471770747" duration="1252000" />
+      <workItem from="1476486965599" duration="2379000" />
+      <workItem from="1476555313481" duration="1438000" />
+      <workItem from="1476570416277" duration="2644000" />
+      <workItem from="1476659155694" duration="2237000" />
+      <workItem from="1476718378270" duration="6620000" />
+      <workItem from="1476745229311" duration="2138000" />
+      <workItem from="1476886697078" duration="1917000" />
+      <workItem from="1477160522161" duration="36000" />
+      <workItem from="1477225778154" duration="875000" />
+      <workItem from="1477256443988" duration="342000" />
+      <workItem from="1477258453592" duration="42000" />
+      <workItem from="1477328447164" duration="30000" />
+      <workItem from="1477352433003" duration="12000" />
+      <workItem from="1477848099908" duration="1405000" />
+      <workItem from="1477915211930" duration="1292000" />
+      <workItem from="1478012492730" duration="1770000" />
+      <workItem from="1478124324789" duration="1588000" />
+      <workItem from="1478186036665" duration="5382000" />
+      <workItem from="1478198567594" duration="622000" />
+      <workItem from="1478217813729" duration="6691000" />
+      <workItem from="1478306091989" duration="1207000" />
+      <workItem from="1478558684953" duration="671000" />
+      <workItem from="1478626356137" duration="4728000" />
+      <workItem from="1478632740234" duration="5178000" />
+      <workItem from="1478808708913" duration="65000" />
+      <workItem from="1478810562623" duration="46000" />
+      <workItem from="1478812143724" duration="217000" />
+      <workItem from="1478892904889" duration="5764000" />
+      <workItem from="1478963572060" duration="3847000" />
+      <workItem from="1479408695265" duration="1672000" />
+      <workItem from="1479645482584" duration="927000" />
+      <workItem from="1479922438636" duration="931000" />
+      <workItem from="1480097125161" duration="2399000" />
+      <workItem from="1480615809663" duration="86000" />
+      <workItem from="1480706412979" duration="17000" />
+      <workItem from="1480708349193" duration="146000" />
+      <workItem from="1480939671185" duration="3452000" />
+      <workItem from="1481121517927" duration="3115000" />
+      <workItem from="1481306954034" duration="9456000" />
+      <workItem from="1481894152602" duration="5705000" />
+      <workItem from="1481978165551" duration="7595000" />
+      <workItem from="1482250561190" duration="3782000" />
+      <workItem from="1482332916661" duration="6508000" />
+      <workItem from="1482413195291" duration="1546000" />
+      <workItem from="1482434610114" duration="4909000" />
+      <workItem from="1482502772693" duration="1583000" />
+      <workItem from="1482542841662" duration="935000" />
+      <workItem from="1482845787182" duration="3191000" />
+      <workItem from="1482858070814" duration="596000" />
+      <workItem from="1482882236497" duration="3434000" />
+      <workItem from="1483010491271" duration="4450000" />
+      <workItem from="1483118889141" duration="4463000" />
+      <workItem from="1483205164974" duration="1523000" />
+      <workItem from="1483360738283" duration="131000" />
+      <workItem from="1483384470884" duration="575000" />
+      <workItem from="1483400660012" duration="1126000" />
+      <workItem from="1483457751231" duration="2354000" />
+      <workItem from="1483480629168" duration="1269000" />
+      <workItem from="1483550014297" duration="2439000" />
+      <workItem from="1483565099356" duration="588000" />
+      <workItem from="1483615995949" duration="5668000" />
+      <workItem from="1483654936720" duration="2649000" />
+      <workItem from="1483708879502" duration="4949000" />
+      <workItem from="1483745798173" duration="865000" />
+      <workItem from="1483746700949" duration="2183000" />
+      <workItem from="1483835987940" duration="1955000" />
+      <workItem from="1483879786467" duration="2366000" />
+      <workItem from="1483993758175" duration="1083000" />
+      <workItem from="1484084193829" duration="3218000" />
+      <workItem from="1484262177005" duration="2843000" />
+      <workItem from="1484432841648" duration="2734000" />
+      <workItem from="1484485177329" duration="6306000" />
+      <workItem from="1484515552947" duration="4264000" />
+      <workItem from="1484753295858" duration="485000" />
+      <workItem from="1484769847841" duration="3094000" />
+      <workItem from="1484790934983" duration="743000" />
+      <workItem from="1485048846239" duration="680000" />
+      <workItem from="1485122655539" duration="1969000" />
+      <workItem from="1485210854717" duration="1000" />
+      <workItem from="1485211491138" duration="1736000" />
+      <workItem from="1485271627601" duration="337000" />
+      <workItem from="1485273477647" duration="2288000" />
+      <workItem from="1485297013426" duration="2487000" />
+      <workItem from="1485361810294" duration="2950000" />
+      <workItem from="1485366433701" duration="1823000" />
+      <workItem from="1485375546680" duration="607000" />
+      <workItem from="1488148729916" duration="498000" />
+      <workItem from="1492379294619" duration="34000" />
+      <workItem from="1495401346911" duration="1255000" />
+      <workItem from="1496699411625" duration="4560000" />
+      <workItem from="1496786589781" duration="1609000" />
+      <workItem from="1496842290804" duration="2695000" />
+      <workItem from="1497263102171" duration="89000" />
+      <workItem from="1497263310680" duration="20000" />
+      <workItem from="1497638693485" duration="16000" />
+      <workItem from="1499258791910" duration="501000" />
+      <workItem from="1499978770391" duration="3237000" />
+      <workItem from="1499986461819" duration="116000" />
+      <workItem from="1500061097121" duration="22000" />
+      <workItem from="1500072670444" duration="3042000" />
+      <workItem from="1500160432242" duration="2541000" />
+      <workItem from="1500201070346" duration="5216000" />
+      <workItem from="1500294728174" duration="506000" />
+      <workItem from="1500396247740" duration="3844000" />
+      <workItem from="1501714707494" duration="1426000" />
+      <workItem from="1502666117601" duration="3381000" />
+      <workItem from="1502716718307" duration="9623000" />
+      <workItem from="1502813903720" duration="7020000" />
+      <workItem from="1502822805996" duration="625000" />
+      <workItem from="1502884209191" duration="541000" />
+      <workItem from="1503505787492" duration="1015000" />
+      <workItem from="1503513088023" duration="246000" />
+      <workItem from="1503514172167" duration="4000" />
+      <workItem from="1505931115847" duration="680000" />
+      <workItem from="1506358198275" duration="2412000" />
+      <workItem from="1506372664466" duration="10000" />
+      <workItem from="1506814176073" duration="418000" />
+      <workItem from="1514048020538" duration="7714000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="576021000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29613733" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32522407" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2084399" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28183118" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.0" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32522407" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/server/GetServerIdQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="8" column="16" lean-forward="false" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/server/CreateServerQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="58" lean-forward="false" selection-start-line="20" selection-start-column="58" selection-end-line="20" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/server/UpdateServerStatusQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="17" column="105" lean-forward="false" selection-start-line="17" selection-start-column="105" selection-end-line="17" selection-end-column="105" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PocketMine/src/pocketmine/event/Cancellable.php" />
+    <entry file="file://$PROJECT_DIR$/PocketMine/src/pocketmine/event/server/RemoteServerCommandEvent.php" />
+    <entry file="file://$PROJECT_DIR$/PocketMine/src/pocketmine/event/server/ServerCommandEvent.php" />
+    <entry file="file://$PROJECT_DIR$/PocketMine/src/pocketmine/event/server/UpdateNotifyEvent.php" />
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/command/session/TeamCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-3081">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/html/css/utils.css" />
+    <entry file="file://$PROJECT_DIR$/Router/testclient.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="7" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/command/session/PunishCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/html/scripts/utils.js" />
+    <entry file="file://$PROJECT_DIR$/Website/html/manifest.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/html/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="52" lean-forward="false" selection-start-line="10" selection-start-column="8" selection-end-line="10" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/html/scripts/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Website/html/css/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="29" column="4" lean-forward="false" selection-start-line="29" selection-start-column="4" selection-end-line="29" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/error/CodeError.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/event/team/player/TeamPlayerEvent.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/party/Party.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1290">
+          <caret line="100" column="31" lean-forward="true" selection-start-line="100" selection-start-column="31" selection-end-line="100" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/party/PartyPlayer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1819">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/error/PresetMessageError.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/AdminLog.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1099">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/task/CallbackAsyncTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="30" lean-forward="false" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/task/GenerateHashTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="32" lean-forward="false" selection-start-line="17" selection-start-column="32" selection-end-line="17" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/task/ValidatePasswordTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/command/BaseCommand.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3435">
+          <caret line="238" column="32" lean-forward="false" selection-start-line="238" selection-start-column="32" selection-end-line="238" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PocketMine/pocketmine-mp/composer.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PocketMine/pocketmine-mp/composer.lock">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/KitPvP/src/LegionPE/Iota/KitPvP/KitPvPSession.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="21" column="46" lean-forward="false" selection-start-line="21" selection-start-column="46" selection-end-line="21" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/dummydbtemp.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PocketMine/php-build-scripts/compile.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="105" column="34" lean-forward="false" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PocketMine/pocketmine-mp/src/pocketmine/PocketMine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="21" column="0" lean-forward="false" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Router/testclient.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Router/router.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="224">
+          <caret line="77" column="10" lean-forward="true" selection-start-line="77" selection-start-column="10" selection-end-line="77" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/dummydb.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-266">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/compile.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1333">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/resources/messages.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6589">
+          <caret line="70" column="35" lean-forward="false" selection-start-line="70" selection-start-column="35" selection-end-line="70" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/ResourceManager.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/ChatRoom.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-869">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/BasePlugin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-303">
+          <caret line="427" column="49" lean-forward="true" selection-start-line="427" selection-start-column="49" selection-end-line="427" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/EventListener.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="4110">
+          <caret line="310" column="37" lean-forward="false" selection-start-line="310" selection-start-column="37" selection-end-line="310" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/GetUserDataQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="101">
+          <caret line="49" column="94" lean-forward="false" selection-start-line="49" selection-start-column="94" selection-end-line="49" selection-end-column="94" />
+          <folding>
+            <marker date="1514060778715" expanded="true" signature="2671:3129" ph="SELECT *, IN... users" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/Constants.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="479">
+          <caret line="158" column="36" lean-forward="false" selection-start-line="158" selection-start-column="36" selection-end-line="158" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/Query.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="716">
+          <caret line="110" column="9" lean-forward="false" selection-start-line="110" selection-start-column="9" selection-end-line="110" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/query/session/CreateUserQuery.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="27" column="72" lean-forward="false" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="72" />
+          <folding>
+            <marker date="1514062828429" expanded="true" signature="412:431" ph="INSERT INTO users... " />
+            <marker date="1514062828429" expanded="true" signature="900:939" ph="INSERT INTO users_stats... " />
+            <marker date="1514062828429" expanded="true" signature="900:946" ph="INSERT INTO users_stats... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/mysql table creations">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="45" column="17" lean-forward="false" selection-start-line="45" selection-start-column="11" selection-end-line="45" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/FriendRelationship.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-809">
+          <caret line="38" column="35" lean-forward="true" selection-start-line="38" selection-start-column="35" selection-end-line="38" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/util/TCPNetworkSyncThread.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="705">
+          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/task/NetworkSyncTask.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-51">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/team/TeamPlayer.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="590">
+          <caret line="141" column="36" lean-forward="false" selection-start-line="141" selection-start-column="36" selection-end-line="141" selection-end-column="36" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Plugin/Games/Base/src/LegionPE/Iota/base/BaseSession.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="661">
+          <caret line="1154" column="57" lean-forward="false" selection-start-line="1154" selection-start-column="57" selection-end-line="1154" selection-end-column="57" />
+          <folding>
+            <element signature="e#38#93#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ScopeChooserConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

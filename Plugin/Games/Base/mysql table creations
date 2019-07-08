@@ -1,0 +1,122 @@
+CREATE TABLE `users` (
+	`uid` INT NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(32) NOT NULL,
+	`last_ip` INT UNSIGNED NOT NULL,
+	`online` TINYINT NOT NULL,
+	`server_ip` INT UNSIGNED NOT NULL,
+	`server_port` INT NOT NULL,
+	`uuid` BINARY(16),
+	`coins` DECIMAL(14, 2) NOT NULL DEFAULT '100.00',
+	`hash` CHAR(60) DEFAULT NULL,
+	`email` VARCHAR(128) DEFAULT NULL,
+	`email_authenticated` TINYINT DEFAULT 0,
+	`team_id` INT DEFAULT -1,
+	`party_leader_uid` INT DEFAULT -1,
+	`registration_time` INT NOT NULL,
+	`last_on` INT NOT NULL,
+	`on_time` INT DEFAULT 0,
+	`chat_language_code` SMALLINT DEFAULT 0,
+	`rank` INT DEFAULT 0,
+	`has_party_invites` INT DEFAULT 0,
+	`has_friends` TINYINT DEFAULT 0,
+	`has_team_invites` TINYINT DEFAULT 0,
+	`has_admin_logs` TINYINT DEFAULT 0,
+	`has_ignored` TINYINT DEFAULT 0,
+	PRIMARY KEY (`uid`),
+	UNIQUE KEY `name` (`name`)
+);
+CREATE TABLE `users_stats` (
+	`uid` INT NOT NULL,
+	`server_times_joined` INT DEFAULT 0,
+	`pvp_kills` INT DEFAULT 0,
+	`pvp_deaths` INT DEFAULT 0,
+	`pvp_max_streak` INT DEFAULT 0,
+	`battle_kills` INT DEFAULT 0,
+	`battle_deaths` INT DEFAULT 0,
+	`battle_wins` INT DEFAULT 0,
+	`battle_losses` INT DEFAULT 0,
+	`battle_played` INT DEFAULT 0,
+	`battle_time_played` INT DEFAULT 0,
+	PRIMARY KEY (`uid`)
+);
+CREATE TABLE `administration_logs` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`uid` INT NOT NULL,
+	`ip` INT UNSIGNED NOT NULL,
+	`uuid` BINARY NOT NULL,
+	`creation_time` INT NOT NULL,
+	`type` TINYINT NOT NULL,
+	`msg` VARCHAR(255),
+	`from_uid` INT NOT NULL,
+	`from_ip` INT UNSIGNED NOT NULL,
+	`duration` INT,
+	`ip_sensitive` TINYINT NOT NULL,
+	`uuid_sensitive` TINYINT NOT NULL,
+	PRIMARY KEY (`id`)
+);
+CREATE TABLE `purchases_codes` (
+	`claimed_uid` INT,
+	`purchase_id` INT NOT NULL,
+	`rank` INT NOT NULL,
+	`duration` INT,
+	`purchase_code` CHAR(16) NOT NULL,
+	`claimed_time` INT,
+	PRIMARY KEY (`claimed_uid`, `purchase_id`)
+);
+CREATE TABLE `ips_game` (
+	`uid` INT NOT NULL,
+	`ip` INT UNSIGNED NOT NULL,
+	PRIMARY KEY (`uid`, `ip`)
+);
+CREATE TABLE `teams` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`name` VARCHAR(32) NOT NULL,
+	`acronym` CHAR(4) NOT NULL,
+	`creation_time` INT NOT NULL,
+	`leader_uid` INT NOT NULL,
+	PRIMARY KEY (`id`),
+	UNIQUE KEY `name` (`name`),
+	UNIQUE KEY `acronym` (`acronym`)
+);
+CREATE TABLE `teams_players` (
+	`id` INT NOT NULL,
+	`creation_time` INT NOT NULL,
+	`accepted_time` INT DEFAULT -1,
+	`invite_duration` INT NOT NULL,
+	`inviter_uid` INT NOT NULL,
+	`invited_uid` INT NOT NULL,
+	`rank` INT DEFAULT 0,
+	`status` TINYINT DEFAULT 0,
+	PRIMARY KEY (`id`, `invited_uid`)
+);
+CREATE TABLE `friends` (
+	`requester_uid` INT NOT NULL,
+	`requested_uid` INT NOT NULL,
+	`status` TINYINT DEFAULT 0,
+	`accepted_time` INT,
+	PRIMARY KEY (`requester_uid`, `requested_uid`)
+);
+CREATE TABLE `parties_players` (
+	`leader_uid` INT NOT NULL,
+	`uid` INT NOT NULL,
+	`status` TINYINT DEFAULT 0,
+	`invite_duration` INT NOT NULL,
+	PRIMARY KEY (`leader_uid`, `uid`)
+);
+CREATE TABLE `chat_rooms` (
+	`key` VARCHAR(128) NOT NULL,
+	`local` TINYINT DEFAULT 0
+);
+CREATE TABLE `servers` (
+	`id` INT NOT NULL AUTO_INCREMENT,
+	`status` TINYINT DEFAULT 0,
+	`ip` INT UNSIGNED NOT NULL,
+	`port` INT NOT NULL,
+	`active` INT DEFAULT 1,
+	PRIMARY KEY (`id`)
+);
+CREATE TABLE `ignored_users` (
+    `uid` INT NOT NULL,
+    `ignored_uid` INT NOT NULL,
+    PRIMARY KEY (`uid`)
+);

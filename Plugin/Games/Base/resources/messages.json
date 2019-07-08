@@ -1,0 +1,643 @@
+{
+	"en": {
+		"ranks": {
+			"user": {
+				"0": {
+					"name": "default",
+					"prefix": ""
+				},
+				"1": {
+					"name": "donator",
+					"prefix": "Donator"
+				},
+				"2": {
+					"name": "vip",
+					"prefix": "VIP"
+				},
+				"4": {
+					"name": "moderator",
+					"prefix": "Mod"
+				},
+				"8": {
+					"name": "admin",
+					"prefix": "Admin"
+				},
+				"16": {
+					"name": "owner",
+					"prefix": "Owner"
+				},
+				"32": {
+					"name": "developer",
+					"prefix": "Dev"
+				},
+				"64": {
+					"name": "builder",
+					"prefix": "Builder"
+				}
+			},
+			"team": {
+				"0": {
+					"name": "member",
+					"prefix": "Member"
+				},
+				"8": {
+					"name": "moderator",
+					"prefix": "Mod"
+				},
+				"16": {
+					"name": "admin",
+					"prefix": "Admin"
+				},
+				"32": {
+					"name": "owner",
+					"prefix": "Owner"
+				}
+			}
+		},
+		"rankTypes": {
+			"user": {
+				"8192": {
+					"name": "plus",
+					"prefix": "+",
+					"position": "after"
+				},
+				"16384": {
+					"name": "trial",
+					"prefix": "Trial",
+					"position": "before"
+				},
+				"32768": {
+					"name": "head",
+					"prefix": "Head",
+					"position": "before"
+				},
+				"65536": {
+					"name": "co",
+					"prefix": "Co",
+					"position": "before"
+				}
+			},
+			"team": {
+				"8192": {
+					"name": "plus",
+					"prefix": "+",
+					"position": "after"
+				},
+				"16384": {
+					"name": "trial",
+					"prefix": "Trial",
+					"position": "before"
+				},
+				"32768": {
+					"name": "head",
+					"prefix": "Head",
+					"position": "before"
+				},
+				"65536": {
+					"name": "co",
+					"prefix": "Co",
+					"position": "before"
+				}
+			}
+		},
+		"commandErrors": {
+			"doesntExist": "§cCommand doesn't exist.",
+			"argumentDoesntExist": "§cArgument §9'%argument%'§c doesn't exist.",
+			"userOffline": "§c'%user%' is offline.",
+			"userDoesntExist": "§c'%user%' doesn't exist.",
+			"noPermission": "§cYou don't have permission to use this command.",
+			"upgradeRank": "§cPlease upgrade your rank if you would like to use this command."
+		},
+		"commands": {
+			"team": {
+				"name": "team",
+				"description": "View your team commands",
+				"usage": "/team <create/leave/accept/deny/chat/promote/demote/invite/list/players/info/disband/kick>",
+				"generalMessages": {
+					"prefix": "§7[§6Party§7]§r",
+					"inTeam": "§cYou are already in a team.",
+					"notInTeam": "§cYou are not in a team.",
+					"userNotInTeam": "§cThat user is not in this team.",
+					"noInvite": "§cYou haven't received an invite to join this team.",
+					"noPermission": "§cYour team rank isn't high enough to execute this command."
+				},
+				"aliases": [
+					"squad",
+					"group",
+					"crew"
+				],
+				"arguments": {
+					"create": {
+						"name": "create",
+						"usage": "/team create [name] [4 letter code / acronym (example = LGPE)]",
+						"description": "Create a team",
+						"messages": {
+							"success": "§aYou have successfully created a team with the name §6%team%§a (§7%acronym%§a)",
+							"nameTooLong": "§cYour team's name is too long.",
+							"nameTooShort": "§cYour team's name is too short.",
+							"nameOnlyLettersNumbersAndSymbols": "§cYour team's name can only contain numbers, letters & symbols (+, -, _, ...)",
+							"nameExists": "§cYour team's name already exists.",
+							"acronymNotRightLength": "§cYour team's code / acronym can only be 4 characters.",
+							"acronymOnlyLettersAndNumbers": "§cYour team's code / acronym can only contain letters & numbers.",
+							"acronymExists": "§cYour team's code / acronym already exists."
+						},
+						"permissions": [
+							2
+						]
+					},
+					"leave": {
+						"name": "leave",
+						"usage": "/team leave",
+						"description": "Leave your team",
+						"messages": {
+							"success": "§aYou have successfully left your team.",
+							"broadcastMessage": "§9%player%§a has left your team.",
+							"owner": "§cYou are the owner of the team, so you cannot leave it.\n§cPlease use §9/team disband§c if you wish to disband the team."
+						},
+						"aliases": [
+							"quit"
+						]
+					},
+					"accept": {
+						"name": "accept",
+						"usage": "/team accept [team]",
+						"description": "Accept an invite to a team and join them",
+						"messages": {
+							"success": "§aYou have joined the team §9%team%§a.",
+							"inviteExpired": "§cYour invite has expired.",
+							"teamIsFull": "§cThe team is full.",
+							"broadcastMessage": "§9%player%§a has joined your team.",
+							"teamDoesntExist": "§cThe team doesn't exist anymore."
+						},
+						"aliases": [
+							"join"
+						]
+					},
+					"deny": {
+						"name": "deny",
+						"usage": "/team deny [team]",
+						"description": "Deny an invite to a team",
+						"messages": {
+							"success": "§aYou have denied an invite to a team."
+						}
+					},
+					"chat": {
+						"name": "chat",
+						"usage": "/team chat",
+						"description": "Toggle team chat visibility on or off",
+						"messages": {
+							"on": "§aYou have turned chat visibility on.",
+							"off": "§aYou have turned chat visibility off."
+						}
+					},
+					"promote": {
+						"name": "promote",
+						"usage": "/team promote [username]",
+						"description": "Promote a team member's rank",
+						"messages": {
+							"success": "§aYou have promoted §9%user%§a to §6%rank%§a.",
+							"alreadyHighest": "§9%user%§a is already the highest rank possible."
+						}
+					},
+					"demote": {
+						"name": "demote",
+						"usage": "/team demote [username]",
+						"description": "Demote a team member's rank",
+						"messages": {
+							"success": "§aYou have demoted §9%user%§a to §6%rank%§a.",
+							"alreadyLowest": "§9%user%§a is already the lowest rank possible."
+						}
+					},
+					"invite": {
+						"name": "invite",
+						"usage": "/team invite [username]",
+						"description": "Invite a player to your team",
+						"messages": {
+							"success": "§aYou have successfully invited §9%user%§a to your team.",
+							"receiverMessage": "§aYou have been invited by to §9%user%§a the team §9%team%§a.",
+							"alreadyInvited": "§cThe user has already been invited to your team.",
+							"alreadyInTeam": "§cThe user is already in this team.",
+							"full": "§cYour team is full. Please upgrade your rank if you would like to invite more players."
+						}
+					},
+					"list": {
+						"name": "list",
+						"usage": "/team list",
+						"description": "View all of your team's members",
+						"messages": {
+							"success": "§6%team%'s§d members: §7(§agreen§7 = online member, §cred§7 = offline member)\n%players%"
+						},
+						"aliases": [
+							"members",
+							"players"
+						]
+					},
+					"info": {
+						"name": "info",
+						"usage": "/team info",
+						"description": "View your team's info",
+						"messages": {
+							"success": "§6%team%'s§d info: \n§bOwner: §7%owner%\n§bCreation date: §7%creationdate%\n§bAcronym: §7%acronym%\n\n§bMembers: §7%players%\n§bNumber of members: §7%numberOfMembers%\n§bOnline members: §7%numberOfOnlineMembers%\n§bOffline members: §7%numberOfOfflineMembers%"
+						},
+						"aliases": [
+							"information"
+						]
+					},
+					"disband": {
+						"name": "disband",
+						"usage": "/team disband",
+						"description": "Disband your team",
+						"messages": {
+							"success": "§aYou have successfully disbanded your team.",
+							"broadcastMessage": "§9%user%§a has disbanded your team."
+						},
+						"aliases": [
+							"destroy"
+						],
+						"customPermissions": [
+							32
+						]
+					},
+					"kick": {
+						"name": "kick",
+						"usage": "/team kick [username]",
+						"description": "Kick someone from your team",
+						"messages": {
+							"success": "§aYou have successfully kicked §9%user%§a your team.",
+							"broadcastMessage": "§9%user%§a has been kicked by §9%kicker%§a.",
+							"kicked": "§cYou have been kicked from your team by §9%kicker%.",
+							"cantKickSelf": "§cYou can't kick yourself from the team."
+						},
+						"aliases": [
+							"remove",
+							"delete"
+						],
+						"customPermissions": [
+							8
+						]
+					}
+				}
+			},
+			"friend": {
+				"name": "friend",
+				"description": "View your friend commands",
+				"usage": "/friend <accept/deny/add/list/requests/pending/remove>",
+				"generalMessages": {
+					"noFriendRequest": "§cYou haven't received a friend request from §9%user%§c.\n§cYou can view your friend requests by typing §9/friend requests",
+					"alreadyFriend": "§9%user%§c is already your friend.",
+					"awaitingResponse": "§cThe user you have sent a request to hasn't responded yet.",
+					"full": "§cYou can't add more friends. Please upgrade your rank if you would like to."
+				},
+				"aliases": [
+					"fam",
+					"bro",
+					"bruv",
+					"broer"
+				],
+				"arguments": {
+					"accept": {
+						"name": "accept",
+						"description": "Accept a friend request",
+						"usage": "/friend accept [username]",
+						"messages": {
+							"success": "§aYou have successfully accepted your friend request.",
+							"friend": "§9%user§a has accepted your friend request."
+						},
+						"aliases": [
+							"join"
+						]
+					},
+					"deny": {
+						"name": "deny",
+						"description": "Deny a friend request",
+						"usage": "/friend deny [username]",
+						"messages": {
+							"success": "§cYou have denied a friend request.",
+							"friend": "§9%user§c has denied your friend request.",
+							"useRemoveCommand": "§cPlease use §9/friend remove %user%§c to remove the user from your friends list."
+						}
+					},
+					"remove": {
+						"name": "remove",
+						"description": "Remove someone from your friends list",
+						"usage": "/friend remove [username]",
+						"messages": {
+							"success": "§cYou have removed §9%user%§c from your friends list.",
+							"noFriend": "§cYou don't have a friend by the name of §9'%user%'§c."
+						},
+						"aliases": [
+							"delete"
+						]
+					},
+					"add": {
+						"name": "add",
+						"description": "Add a friend",
+						"usage": "/friend add [username]",
+						"messages": {
+							"success": "§aYou have sent a friend request to §9%user%§a.",
+							"receiver": "§9%user§a has sent you a friend request.\n§aType §9/friend accept %user%§a to accept it.",
+							"noUserFound": "§cWe couldn't find anyone with the username §9%user%§c."
+						},
+						"aliases": [
+							"invite",
+							"request"
+						]
+					},
+					"list": {
+						"name": "list",
+						"description": "View all of your friends",
+						"usage": "/friend list",
+						"messages": {
+							"success": "§dYour friends: §7(§agreen§7 = online friend, §cred§7 = offline friend)\n%friends%"
+						}
+					},
+					"requests": {
+						"name": "requests",
+						"description": "View all of your friend requests",
+						"usage": "/friend requests",
+						"messages": {
+							"success": "§dYour friend requests: §9\n%requests%"
+						}
+					},
+					"pending": {
+						"name": "pending",
+						"description": "View all of your pending friend requests",
+						"usage": "/friend pending",
+						"messages": {
+							"success": "§dYour pending (sent) friend requests: §9\n%pending%"
+						}
+					}
+				}
+			},
+			"party": {
+				"name": "party",
+				"description": "View your party commands",
+				"usage": "/party <create/invite/kick/disband/summon/accept/deny>",
+				"generalMessages": {
+					"alreadyInParty": "§cYou are already in a party.",
+					"notInParty": "§cYou are not in a party.",
+					"noInvite": "§cYou haven't received an invite to §9%user%§a's party.",
+					"noPermission": "§cYour party rank isn't high enough to execute this command.",
+					"userNotInParty": "§cThat user is not in your party."
+				},
+				"aliases": [
+
+				],
+				"arguments": {
+					"create": {
+						"name": "create",
+						"description": "Create a party",
+						"usage": "/party create",
+						"messages": {
+							"success": "§aYou have successfully created a party."
+						},
+						"permissions": [
+							1,
+							2
+						]
+					},
+					"invite": {
+						"name": "invite",
+						"description": "Invite someone to your party",
+						"usage": "/party invite [username]",
+						"messages": {
+							"success": "§aYou have invited §9%user%§a to your party.",
+							"alreadyInvited": "§cThe user has already been invited to your party.",
+							"alreadyInParty": "§cThe user is already in your party.",
+							"receiverMessage": "§aYou have been invited to §9%user%§a's team.",
+							"full": "§cYour party is full. Please upgrade your rank if you would like to invite more players."
+						}
+					},
+					"disband": {
+						"name": "disband",
+						"description": "Disband your party",
+						"usage": "/party disband",
+						"messages": {
+							"success": "§aYou have successfully disbanded your party.",
+							"broadcast": "§9%user%§c has disbanded your party."
+						}
+					},
+					"summon": {
+						"name": "summon",
+						"description": "Teleport all of your party members to your server",
+						"usage": "/party summon",
+						"messages": {
+							"success": "§aYou have teleported your party members to your server."
+						},
+						"aliases": [
+							"teleport",
+							"tp",
+							"warp"
+						]
+					},
+					"accept": {
+						"name": "accept",
+						"description": "Accept an invite to a party",
+						"usage": "/party accept [username]",
+						"messages": {
+							"success": "§aYou have joined §9%user%§a's party.",
+							"partyIsFull": "§cThe party you are trying to join is full.",
+							"partyDoesntExist": "§cThe party you are trying to join doesn't exist anymore.",
+							"broadcast": "§9%user% has joined your party."
+						},
+						"aliases": [
+							"join"
+						]
+					},
+					"deny": {
+						"name": "deny",
+						"description": "Deny an invite to a party",
+						"usage": "/party deny [username]",
+						"messages": {
+							"success": "§cYou have denied an invite to a party."
+						}
+					},
+					"kick": {
+						"name": "deny",
+						"description": "Remove a player from your party",
+						"usage": "/party kick [username]",
+						"messages": {
+							"success": "§aYou have successfully kicked §9%user%§a your party.",
+							"broadcast": "§9%user%§a has been kicked from your party.",
+							"kicked": "§cYou have been kicked from the party."
+						}
+					},
+					"leave": {
+						"name": "leave",
+						"usage": "/party leave",
+						"description": "Leave your party",
+						"messages": {
+							"success": "§aYou have successfully left your party.",
+							"broadcastMessage": "§9%player%§a has left your party.",
+							"owner": "§cYou are the owner of the party, so you cannot leave it.\n§cPlease use §9/party disband§c if you wish to disband the party."
+						},
+						"aliases": [
+							"quit"
+						]
+					},
+					"list": {
+						"name": "list",
+						"description": "View all of your party members",
+						"usage": "/party list",
+						"messages": {
+							"success": "§dMembers: %members%"
+						},
+						"aliases": [
+							"info",
+							"members",
+							"players"
+						]
+					}
+				}
+			},
+			"punish": {
+				"name": "punish",
+				"description": "View your punish commands",
+				"usage": "/punish [username] <bugexploiting|impersonation|hacking|swearing|spam|advertising> [extras]",
+				"generalMessages": {
+					"punished": "§aYou have punished §9%user%§a for §6%reason%.",
+					"extra": "§aExtra: §6%extra%",
+					"reasonDoesntExist": "§cThe reason §9'%reason'§c doesn't exist. You can choose between these reasons: §6%reasons%",
+					"reasonNotSet": "§cYou haven't entered a reason. Reasons: §6%reasons%"
+				},
+				"aliases": [
+					"warn"
+				],
+				"arguments": {
+
+				},
+				"extra": {
+					"bugexploiting": {
+						"name": "bugexploiting",
+						"aliases": [
+
+						]
+					},
+					"impersonation": {
+						"name": "impersonation",
+						"aliases": [
+
+						]
+					},
+					"hacking": {
+						"name": "hacking",
+						"aliases": [
+
+						]
+					},
+					"swearing": {
+						"name": "swearing",
+						"aliases": [
+
+						]
+					},
+					"spam": {
+						"name": "spam",
+						"aliases": [
+
+						]
+					},
+					"advertising": {
+						"name": "advertising",
+						"aliases": [
+
+						]
+					}
+				}
+			}
+		},
+		"plugin": {
+			"levelLoaded": "The level with the name %name% has been loaded",
+			"queries": {
+				"errors": {
+					"noParameters": "%query% ran with no parameters",
+					"queryFailed": "%query% failed",
+					"noRows": "%query% ran but with a row count of 0"
+				}
+			}
+		},
+		"player": {
+			"register": {
+				"welcome": "§7Welcome to §l§6LegionPE§r§7, §9%name%§7. We'll talk you through the registration process.\n§7First, please type your password into the chat. (min. 6 characters)",
+				"repeat": "§aPlease type your password into chat again so we can confirm it.",
+				"status": {
+					"failed": {
+						"wrongRepetition": "§cOops, it seems like you typed your password wrong. We'll start again.\n§7First, please type your password into the chat. (min. 6 characters)",
+						"passwordTooShort": "§cSorry, your password is too short. Please enter a longer one.",
+						"passwordTooLong": "§cSorry, your password is too long. Please enter a shorter one."
+					},
+					"success": "§aThe registration was successful.\n§7You can change your account settings on our website, §9www.legionpe.com"
+				}
+			},
+			"login": {
+				"welcomeBack": "§7Welcome back to §l§6LegionPE§r§7, §9%name%§7.",
+				"typePassword": "§7To login, please type your password into chat.",
+				"status": {
+					"failed": {
+						"attemptsLeft": "§cWrong password. Attempts left: %attempts%",
+						"maxAttempts": "§cYou have been kicked as you have used all of your attempts to login.",
+						"alreadyOnline": "§You player is already online."
+					},
+					"success": {
+						"message": "§aYou were logged in using your §c%method%§a",
+						"multipleMethods": {
+							"two": " and §c%methodTwo%§a",
+							"three": ", §c%methodTwo§a and §c%methodThree%§a"
+						},
+						"methods": {
+							"clientId": "client ID",
+							"uuid": "UUID",
+							"ip": "IP address",
+							"password": "password"
+						}
+					}
+				}
+			},
+			"warnings": {
+				"receive": "§cYou have received a warning: \n§e%message%",
+				"sent": "§aYou have successfully sent a warning to §9%name%§a.",
+				"muted": "§aYou have successfully muted §9%name%§a for §b%time%§a.",
+				"banned": "§aYou have successfully banned §9%name%§a for §b%time%§a.",
+				"messages": {
+					"mute": "§cYou have been muted for §e%duration%§c. Reason: §e%reason%",
+					"ban": "§cYou have been banned for §e%duration%§c. Reason: §e%reason%",
+					"muted": "§cYou have been muted. You will be able to chat in §e%duration%§c.",
+					"banned": "§cYou have been banned. \nReason: §e%reason%\n§c You will be able to join in §e%duration%§c."
+				}
+			},
+			"friends": {
+				"accepted": {
+					"receivedUser": "§aYou have accepted §9%name%§a's friend request.",
+					"receiverUser": "§aYour friend request to §9%name%§a has been accepted."
+				},
+				"denied": {
+					"receivedUser": "§cYou have denied §9%name%§a's friend request.",
+					"receiverUser": "§cYour friend request to §9%name%§c has been denied."
+				},
+				"errors": {
+					"alreadyFriend": "§cThe user you are trying to accept as a friend is already your friend.",
+					"requestedButDenied": "§The user you requested to be your friend denied the request.",
+					"requested": "§The user you have sent a request to hasn't responded yet.",
+					"useRemoveCommand": "§cYou can remove a friend by using the remove friend command.",
+					"userDoesntExist": "§cThe user §9'%name%'§c doesn't exist.",
+					"self": "§cYou can't send a friend request to yourself :("
+				},
+				"sent": "§aYour friend request has successfully been sent to §9%name%§a."
+			},
+			"team": {
+				"accepted": {
+					"accepter": "§aYou have accepted your invite to the team §9%team%§a.",
+					"team": "§9%name%§a has joined your team."
+				},
+				"denied": {
+					"denier": "§cYou have denied your invite.",
+					"team": "§9%name%§a has denied the invite to your team."
+				},
+				"errors": {
+					"inTeam": "§cYou are already in a team.",
+					"expired": "§Your invite expired."
+				}
+			}
+		}
+	}
+}

@@ -1,0 +1,277 @@
+/*
+https://coolors.co/2c3e50-34495e-8d8d92-beb2c8-d7d6d6
+https://coolors.co/2c3e50-34495e-8d8d92-46627f-d7d6d6
+ */
+
+body{
+	margin: 0;
+	padding: 0;
+
+	overflow-x: hidden;
+}
+main{
+	position: absolute;
+}
+
+/*
+ * Overlay
+ */
+div.overlay{
+	position: absolute;
+
+	width: 100%;
+	height: 100%;
+
+	top: 0;
+
+	transition: background-color .75s ease-in-out;
+}
+div.overlay.dark{
+	background-color: rgba(0, 0, 0, .4);
+
+	transition: background-color .75s ease-in-out;
+}
+
+/*
+ * Navigation
+ */
+nav{
+	user-select: none;
+
+	color: #FFF;
+
+	height: 100%;
+}
+nav ul{
+	height: 100%;
+
+	margin: 0;
+	padding: 0;
+
+	list-style-type: none;
+}
+nav ul li{
+	padding: 15px 0;
+	margin: 0 15px;
+
+	float: left;
+
+	cursor: pointer;
+
+	box-sizing: border-box;
+
+	position: relative;
+}
+nav ul li div.underline{
+	position: absolute;
+
+	bottom: 0;
+	right: 0;
+
+	width: 0;
+	height: 3px;
+
+	background-color: #fff;
+
+	transition: .5s ease-in-out;
+}
+nav ul li:hover div.underline{
+	width: 100%;
+
+	transition: .3s ease-in-out;
+
+	left: 0;
+}
+nav ul li div.underline.selected{
+	width: 100%;
+}
+nav ul li h2{
+	position: relative;
+
+	line-height: 180%;
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+
+	text-transform: uppercase;
+
+	letter-spacing: 2px;
+
+	margin: 0;
+}
+nav ul li.selected{
+
+}
+
+/*
+ * Header
+ */
+header{
+	z-index: 1;
+
+	height: 70px;
+	width: 100%;
+
+	color: #FFF;
+	background-image: linear-gradient(45deg, #34495E 0%, #435E7A 100%);
+
+	position: fixed;
+
+	top: 0;
+
+	box-shadow: 0 0 20px 0 rgba(0, 0, 0, .5);
+	box-sizing: border-box;
+
+	user-select: none;
+}
+header h1#logo{
+	margin: 0;
+
+	cursor: pointer;
+
+	position: absolute;
+
+	left: 8px;
+	top: 8px;
+
+	background-image: url(../assets/images/icon_small_transparent.svg);
+	background-size: cover;
+
+	height: 55px;
+	width: 55px;
+}
+header nav ul{
+	float: right;
+}
+header nav ul li{
+	padding: 14px 0;
+
+	height: 100%;
+}
+header nav ul li#open-mobile-navbar{
+	display: none;
+}
+
+/*
+ * Mobile navbar
+ */
+div#main-overlay{
+	z-index: -1;
+
+	transition: background-color .75s ease-in-out, z-index 0s .75s;
+}
+div#main-overlay.dark{
+	z-index: 1;
+
+	transition: background-color .75s ease-in-out;
+}
+nav#mobile-navbar{
+	z-index: 1;
+
+	position: fixed;
+
+	width: 175px;
+	height: 100%;
+
+	right: 0;
+
+	will-change: transform;
+
+	transform: translate3d(100%, 0, 0); /* translate3d because it's faster than translateX */
+
+	background-image: linear-gradient(45deg, #34495E 0%, #435E7A 100%);
+
+	transition: transform .5s ease-in-out;
+}
+nav#mobile-navbar.showing{
+	transform: translate3d(0, 0, 0);
+
+	transition: transform .5s ease-in-out;
+}
+body nav#mobile-navbar.showing{
+	overflow: hidden;
+}
+nav#mobile-navbar ul{
+	list-style-type: none;
+
+	width: 100%;
+
+	margin: 0;
+	padding: 0;
+}
+nav#mobile-navbar ul li{
+	padding: 14px 0;
+
+	text-align: center;
+
+	width: 100%;
+
+	position: relative;
+
+	line-height: 180%;
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: 800;
+
+	text-transform: uppercase;
+
+	letter-spacing: 2px;
+
+	margin: 0;
+}
+nav#mobile-navbar ul li div.underline{
+	position: absolute;
+
+	left: 0;
+	bottom: 0;
+
+	width: 3px;
+	height: 0;
+
+	background-color: #fff;
+
+	transition: .5s ease-in-out;
+}
+nav#mobile-navbar ul li:hover div.underline{
+	height: 100%;
+
+	transition: .3s ease-in-out;
+
+	top: 0;
+}
+nav#mobile-navbar ul li div.underline.selected{
+	height: 100%;
+}
+
+/*
+ * Sections
+ */
+div#sections{
+	position: relative;
+
+	width: 100vw;
+	height: auto;
+
+	margin: 70px 0 0 0;
+}
+div#sections section{
+	position: relative;
+
+	width: 100%;
+	height: calc(100vh - 70px);
+}
+
+/*
+ * Media queries
+ */
+@media (max-width: 575px){
+	/*header{
+		background-image: linear-gradient(45deg, #34495E 0%, #34495E 100%);
+	}*/
+	header nav ul li{
+		display: none
+	}
+	header nav ul li#open-mobile-navbar{
+		display: block;
+	}
+}

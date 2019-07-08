@@ -1,0 +1,6 @@
+name: "LegionPE Iota"
+version: "1.0.0"
+api: [3.0.0]
+author: "Sam Mckenzie"
+main: "LegionPE\Iota\base\MainPlugin"
+description: ""

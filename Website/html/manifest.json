@@ -1,0 +1,9 @@
+{
+	"name": "LegionPE Website",
+	"description": "Buy ranks, view account details & more",
+	"short_name": "LegionPE",
+	"icons": [{
+		"src": "assets/images/favicon.png",
+		"sizes": "128x128"
+	}]
+}

@@ -1,0 +1,11 @@
+{
+	"name": "LegionPE_Iota-Router",
+	"version": "1.0.0",
+	"private": true,
+	"description": "The router is a TCP server that receives packets from one server and redirects it to the neccassary server(s).",
+	"main": "router.js",
+	"athuor": "Lambo",
+	"dependencies": {
+		
+	}
+}
